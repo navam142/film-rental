@@ -1,4 +1,4 @@
-package com.example.backend.Repository;
+package com.example.backend.repository;
 
 import com.example.backend.entity.FilmCategory;
 import org.junit.jupiter.api.DisplayName;
@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class FilmCategoryRepositoryTest {
 
     @Autowired
-    private com.example.backend.repository.FilmCategoryRepository filmCategoryRepository;
+    private FilmCategoryRepository filmCategoryRepository;
 
     @Test
     @DisplayName("Should find films by category name")

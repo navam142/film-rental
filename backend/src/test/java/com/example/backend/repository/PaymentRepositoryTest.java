@@ -1,5 +1,5 @@
 
-package com.example.backend.Repository;
+package com.example.backend.repository;
 
 import com.example.backend.Entity.Payment;
 import org.junit.jupiter.api.Test;

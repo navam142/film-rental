@@ -1,4 +1,4 @@
-package com.example.backend.Repository;
+package com.example.backend.repository;
 
 import com.example.backend.entity.Film;
 import org.junit.jupiter.api.DisplayName;
@@ -9,6 +9,7 @@ import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
@@ -16,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class FilmRepositoryTest {
 
     @Autowired
-    private com.example.backend.repository.FilmRepository filmRepository;
+    private FilmRepository filmRepository;
 
     @Test
     @DisplayName("Should find films by title")

@@ -1,6 +1,5 @@
-package com.example.backend.Repository;
+package com.example.backend.repository;
 
-import com.example.backend.entity.Actor;
 import com.example.backend.entity.FilmActor;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class FilmActorRepositoryTest {
 
     @Autowired
-    private com.example.backend.repository.FilmActorRepository filmActorRepository;
+    private FilmActorRepository filmActorRepository;
 
 //    @Autowired
 //    private ActorRepository actorRepository;
